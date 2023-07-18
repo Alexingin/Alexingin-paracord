@@ -1,2 +1,2 @@
 # ParaPara
-Something about Paracord
+Браслеты из паракорда от Алекши.
