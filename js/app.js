@@ -3,7 +3,10 @@ document.querySelectorAll('.slider').forEach((n, i) => {
 		freeMode: true,
 		centeredSlides: true,
 		direction: 'vertical',
-		mousewheel: true,
+		mousewheel: {
+			enabled: true,
+			sensitivity: 2,
+		},
 		slidesPerView: 1.75,
 		slidesOffsetBefore: -125
 	})
