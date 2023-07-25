@@ -48,5 +48,5 @@ html, body {
 	border-radius: 8px;
 }
 .slider:nth-child(odd) .slider__img {
-	transform: rotate(-180deg);
+	transform: rotate(0);
 }
