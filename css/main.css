@@ -24,7 +24,7 @@ html, body {
 	overflow: visible;
 }
 .slider:nth-child(odd) {
-	transform: rotate(192.5deg);
+	transform: rotate(0);
 }
 .slider .slider__wrapper {
 	transition: var(--transition)!important;
