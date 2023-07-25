@@ -5,7 +5,7 @@ document.querySelectorAll('.slider').forEach((n, i) => {
 		direction: 'vertical',
 		mousewheel: {
 			enabled: true,
-			sensitivity: 2,
+			sensitivity: 5,
 		},
 		slidesPerView: 1.75,
 		slidesOffsetBefore: -125
