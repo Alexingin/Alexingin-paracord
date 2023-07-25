@@ -20,7 +20,7 @@ html, body {
 	background-position: center;
 }
 .slider {
-	transform: rotate(12.5deg);
+	transform: rotate(0);
 	overflow: visible;
 }
 .slider:nth-child(odd) {
