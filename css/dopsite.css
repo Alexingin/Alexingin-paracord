@@ -9,7 +9,7 @@
 	font-size: 20px;
   }
   burger {
-	position: absolute;
+	position: relative;
   }
   details {
 	margin: 40px;
