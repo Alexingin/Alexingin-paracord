@@ -10,7 +10,7 @@
   }
   details {
 	margin: 40px;
-	position: relative;
+	position: absolute;
   }
   summary {
 	writing-mode: vertical-lr;
@@ -88,17 +88,6 @@
   }
   .menu a:hover {
 	filter: brightness(200%);
-  }
-  details::before {
-	content: "← Вернуться назад";
-	color: var(--secoColor);
-	position: absolute;
-	margin-left: 80px;
-	padding: 10px 10px;
-	opacity: 0.4;
-  }
-  details[open]::before {
-	animation: fadeMe 300ms linear forwards;
   }
   @keyframes menuAnim {
 	0% {
