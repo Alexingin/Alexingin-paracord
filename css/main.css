@@ -18,6 +18,7 @@ html, body {
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-position: center;
+	z-index: 1;
 }
 .slider {
 	transform: rotate(0);
